@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'retroFont';
+    src: url(./8801-DKnR.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: 'retroFont', sans-serif;
+    
+}
+
+h1 {
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+}
+
+#enter-button {
+    display: flex;
+    justify-content: center;
+}
+
+#enterBtn {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    color: greenyellow;
+    border-radius: 5px;
+    border: dotted limegreen 5px;
+    font-size: 48px;
+    font-family:'retroFont',sans-serif;
+    padding: 50px;
+    margin: 100px;
+}
+
+#mainPage-h3 {
+    font-family: 'retroFont',sans-serif;
+    color: greenyellow;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-music {
+    background-color: rgb(179, 176, 176);
+    opacity: 20%;
+    border-radius: 22px;
+    position: fixed;
+    bottom: 0px;
+}
